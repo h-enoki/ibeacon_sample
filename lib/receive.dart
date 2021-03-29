@@ -31,7 +31,8 @@ class Receive {
       // iOSプラットフォーム、少なくともリージョンスキャン用の識別子とproximityUUIDを設定します
       regions.add(Region(
           identifier: 'Apple Airlocate',
-          proximityUUID: "00008030-00054D821AFB802E"));
+          // proximityUUID: "00008030-00054D821AFB802E"));
+          proximityUUID: "48534442-4C45-4144-80C0-1800FFFFFFFF"));
     } else {
       print("isAndroid");
       // android platform, it can ranging out of beacon that filter all of Proximity UUID
